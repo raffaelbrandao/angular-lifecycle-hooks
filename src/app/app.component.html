@@ -1,0 +1,9 @@
+<h1>LifeCycle Hooks Angular - My Application Sample</h1>
+
+<app-init-sample></app-init-sample>
+<app-change-sample name="World 1"></app-change-sample>
+<app-change-sample name="World 2"></app-change-sample>
+<app-check-sample></app-check-sample>
+<app-destroy-sample *ngIf="isAliveDestroySample"></app-destroy-sample>
+<button (click)="disposeDestroySample()">Destroy</button>
+<router-outlet></router-outlet>
